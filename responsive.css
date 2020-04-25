@@ -1,5 +1,25 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+
+/* khusnul */
+.extra1 h2 {
+    margin: 0 122px;
+}
+
+.container {
+    width: 70%;
+}
+.gambar{
+  width: 75%;
+}
+.cara {
+    width: 40%;
+    margin: 0 5%;
+    padding: 0 1%;
+}
+/* end khusnul */
+
+
 /* darlan berita */
 .berita{
   width: 50%;
@@ -11,6 +31,30 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+
+/* khusnul */
+.extra1 h2 {
+    margin: 0 80px;
+}
+
+.container {
+    width: 60%;
+}
+
+.gambar{
+  width: 50%;
+}
+
+.cara {
+    width: 80%;
+    margin: 0 10%;
+    padding: 0 1%;
+}
+
+/* end khusnul */
+
+
+
   /* darlan berita */
 .berita{
   width: 100%;
