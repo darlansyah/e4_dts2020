@@ -1,1 +1,1 @@
-# ninja naruto
+# ninja
