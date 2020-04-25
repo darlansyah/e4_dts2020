@@ -1,0 +1,56 @@
+/* defauld css reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/* end defauld css reset */
+
+
+/* berita */
+.berita-wrapper {
+  margin: 0 60px;
+}
+
+.container hr{
+  margin-bottom: 70px;
+  border: 1px solid #2B62FC;
+  opacity: 0.5;
+}
+
+.item-berita {
+  width: 100%;
+}
+.berita {
+  float: left;
+  width: 25%;
+  /* background-color: #999; */
+  /* padding-right: 20px;
+  padding-left: 20px;  */
+  margin-bottom:  20px ;
+
+  padding-right: 20px;
+}
+
+.text-berita{
+  padding: 20px 0;
+  font-size: 12px;
+  /* letter-spacing: 1px; */
+}
+
+.btn{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.baca{
+  background-color: #2B62FC;
+  width: 100%;
+  text-align: center;
+}
+
+/* end berita */
