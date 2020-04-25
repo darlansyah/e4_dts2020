@@ -7,7 +7,7 @@
 /* end defauld css reset */
 
 
-/* berita */
+/* darlan berita */
 .clear {
   clear: left;
 }
@@ -17,7 +17,7 @@
   /* border: 1px solid red; */
 }
 
-.container hr {
+.berita-container hr {
   margin-bottom: 70px;
   border: 1px solid #2B62FC;
   opacity: 0.5;
@@ -74,4 +74,4 @@
 }
 /* end animasi berita */
 
-/* end berita */
+/* end darlan berita */
