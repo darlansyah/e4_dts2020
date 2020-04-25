@@ -8,11 +8,16 @@
 
 
 /* berita */
-.berita-wrapper {
-  margin: 0 60px;
+.clear {
+  clear: left;
 }
 
-.container hr{
+.berita-wrapper {
+  margin: 0 60px;
+  /* border: 1px solid red; */
+}
+
+.container hr {
   margin-bottom: 70px;
   border: 1px solid #2B62FC;
   opacity: 0.5;
@@ -25,20 +30,20 @@
   float: left;
   width: 25%;
   /* background-color: #999; */
-  /* padding-right: 20px;
-  padding-left: 20px;  */
   margin-bottom:  20px ;
-
   padding-right: 20px;
+  opacity: 1;
+  animation: animasiBerita 3s;
+
 }
 
-.text-berita{
+.text-berita {
   padding: 20px 0;
   font-size: 12px;
   /* letter-spacing: 1px; */
 }
 
-.btn{
+.btn {
   padding: 12px 24px;
   color: white;
   display: inline-block;
@@ -47,15 +52,26 @@
   font-size: 12px;
 }
 
-.baca{
+.baca {
   background-color: #2B62FC;
   width: 100%;
   text-align: center;
 }
 
-.baca:hover{
+.baca:hover {
   opacity: 1;
   cursor: pointer;
 }
+
+/* animasi berita */
+@keyframes animasiBerita{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+}
+/* end animasi berita */
 
 /* end berita */
