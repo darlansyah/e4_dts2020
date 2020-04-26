@@ -25,9 +25,27 @@
   width: 50%;
 }
 /* end darlan berita */
+
+/* junot */
+.lesson {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.top-wrapper h1 {
+  font-size: 32px;
+}
+
+.heading h2 {
+  font-size: 20px;
+}
+/* end junot */
+
+
 }
 /* end Untuk Tablet */
 
+/* ------------------------------------------------------------------------------- */
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
@@ -50,15 +68,57 @@
     margin: 0 10%;
     padding: 0 1%;
 }
-
 /* end khusnul */
-
-
 
   /* darlan berita */
 .berita{
   width: 100%;
 }
 /* end darlan berita */
+
+/* junot */
+.lesson {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+}
+
+.facebook {
+  margin-bottom: 10px;
+}
+
+.top-wrapper {
+  text-align: left;
+}
+
+/* Tambahkan CSS untuk header-right */
+.header-right {
+  display: none;
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  display: block;
+}
+
+.top-wrapper h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.top-wrapper p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* end junot */
+
+
 }
 /* end Untuk Smartphone */
