@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+
 }
 /* end defauld css reset */
 body{
@@ -10,6 +11,11 @@ body{
 
   background-color: #f7fafc;
 }
+
+a {
+  text-decoration: none;
+}
+
 
 /* khusnul */
 clear{
@@ -159,7 +165,6 @@ header {
   float: left;
   transition: all 0.5s;
   font-family: sans-serif;
-  text-decoration: none;
 }
 
 .header-right a:hover {
