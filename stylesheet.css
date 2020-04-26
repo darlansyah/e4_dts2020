@@ -159,11 +159,13 @@ header {
   float: left;
   transition: all 0.5s;
   font-family: sans-serif;
+  text-decoration: none;
 }
 
 .header-right a:hover {
   background-color: rgba(55, 66, 250,0.9);
   opacity: 1.0;
+  text-decoration: underline;
 }
 
 .icon span{
