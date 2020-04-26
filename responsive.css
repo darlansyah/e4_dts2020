@@ -103,7 +103,7 @@ footer {
 }
 
 /* Tambahkan CSS untuk menu-icon */
-.menu-icon {
+.icon span{
   display: block;
 }
 
@@ -115,6 +115,11 @@ footer {
 .top-wrapper p {
   font-size: 14px;
   line-height: 20px;
+}
+
+.footer-contact{
+  padding-top: 10px;
+  font-size: 10px;
 }
 
 /* end junot */
