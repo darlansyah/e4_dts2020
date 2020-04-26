@@ -1,6 +1,33 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+    /* Ikbal */
+    .main {
+        height: 400px;
+        padding: 0px;
+    }
 
+    .main-top {
+        width: 70%;
+    }
+
+    .top h1 {
+        font-size: 150px;
+    }
+
+    .top h2 {
+        font-size: 110px;
+    }
+
+    .btnn {
+        font-size: 20px;
+    }
+
+    .img-top {
+        width: 70%;
+    }
+
+    /* Akhir Ikbal */
+    
 /* khusnul */
 .extra1 h2 {
     margin: 0 122px;
