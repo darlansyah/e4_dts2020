@@ -7,8 +7,6 @@
 }
 /* end defauld css reset */
 body{
-  /* background-color:  */
-
   background-color: #f7fafc;
 }
 
@@ -17,8 +15,91 @@ a {
 }
 
 
-/* khusnul */
-clear{
+/* ikbal -------------------------------------------------------*/
+.bener{
+  color: white;
+  box-sizing: inherit;
+}
+
+.bener ul {
+    list-style: none;
+    margin: 0px;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+/* li {
+    color: white;
+    height: 500px;
+} */
+
+.btn-wrapper a{
+  text-decoration: underline;
+}
+
+.flex-list {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2B62FC;
+    height: 600px;
+
+}
+
+.flex-list li {
+    flex: auto;
+    width: 50%;
+}
+
+
+.top h1 {
+    margin-left: 100px;
+    font-size: 180px;
+    font-family: 'Bebas Neue',
+        cursive;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.top h2 {
+    font-size: 140px;
+    font-family: 'Bebas Neue',
+        cursive;
+    padding: 0;
+    margin: 0;
+}
+
+.btnn {
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 34px;
+    font-family: 'Open Sans',
+        sans-serif;
+    font-weight: bold;
+}
+
+.wfh {
+    background-color: #F4CB1C;
+}
+
+.btn-wrapper {
+    margin-top: 1px;
+}
+
+.img-top {
+    margin-right: 100px;
+    margin-top: 35px;
+}
+
+/* end ikbal */
+
+
+/* khusnul ----------------------------------------------------------*/
+.clear{
     clear: left;
 }
 
@@ -54,7 +135,7 @@ clear{
     margin-top: 30px;
 
 }
-img{
+img .gambar{
   border-radius: 50%;
 }
 .cara p {
@@ -66,9 +147,7 @@ img{
 /* end khusnul */
 
 
-
-
-/* darlan berita */
+/* darlan berita -------------------------------------------------------*/
 .clear {
   clear: left;
 }
@@ -132,7 +211,7 @@ img{
 /* end darlan berita */
 
 
-/* junot */
+/* junot -----------------------------------------------------------------*/
 header {
   height: 65px;
   width: 100%;
